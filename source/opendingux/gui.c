@@ -30,8 +30,8 @@
 #define COLOR_ERROR_TEXT       RGB888_TO_RGB565(255,  64,  64)
 #define COLOR_ERROR_OUTLINE    RGB888_TO_RGB565( 80,   0,   0)
 
-#define NO_SCALING ((SCREEN_WIDTH == GBA_SCREEN_WIDTH) \
-		&& (SCREEN_HEIGHT == GBA_SCREEN_HEIGHT))
+//#define NO_SCALING ((SCREEN_WIDTH == GBA_SCREEN_WIDTH) \
+//		&& (SCREEN_HEIGHT == GBA_SCREEN_HEIGHT))
 
 // -- Shorthand for creating menu entries --
 
