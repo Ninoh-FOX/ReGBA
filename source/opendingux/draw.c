@@ -51,8 +51,10 @@ video_scale_type ScaleMode = scaled_aspect;
 #define PROGRESS_WIDTH 240
 #define PROGRESS_HEIGHT 18
 
-//#define NO_SCALING ((SCREEN_WIDTH == GBA_SCREEN_WIDTH) \
-		//&& (SCREEN_HEIGHT == GBA_SCREEN_HEIGHT))
+/*
+#define NO_SCALING ((SCREEN_WIDTH == GBA_SCREEN_WIDTH) \
+		&& (SCREEN_HEIGHT == GBA_SCREEN_HEIGHT))
+*/
 
 static bool InFileAction = false;
 static enum ReGBA_FileAction CurrentFileAction;

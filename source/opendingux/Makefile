@@ -32,7 +32,7 @@ CFLAGS      := $(SDL_CFLAGS) -mno-abicalls -Wall -Wno-unused-variable \
 ASFLAGS     := $(CFLAGS) -D__ASSEMBLY__
 LDFLAGS     := $(SDL_LIBS) -lpthread -lz -lm -lpng
 
-DATA_TO_CLEAN := .opk_data $(TARGET).opk
+DATA_TO_CLEAN := .opk_data $(TARGET).opk ReGBA.opk default.gcw0.desktop
 
 include ../Makefile.rules
 
