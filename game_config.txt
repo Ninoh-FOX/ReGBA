@@ -1458,6 +1458,12 @@ game_code = ALFP
 vender_code = 70
 save_type = eeprom
 
+# Dragon Ball Z - The Legacy of Goku (E)
+game_name = DRAGONBALL Z
+game_code = ALGP
+vender_code = 70
+save_type = eeprom
+
 # Dragon Ball Z - Taiketsu (U)
 game_name = DBZ TAIKETSU
 game_code = BDBE
@@ -1467,5 +1473,11 @@ save_type = eeprom
 # Dragon Ball Z - Taiketsu (E)
 game_name = DRAGON BALLZ
 game_code = BDBP
+vender_code = 70
+save_type = eeprom
+
+# Dragon Ball Z - Buu's Fury (U)
+game_name = DBZBUUSFURY
+game_code = BG3E
 vender_code = 70
 save_type = eeprom
