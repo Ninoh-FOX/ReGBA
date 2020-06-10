@@ -19,8 +19,8 @@ HEADERS     := cheats.h ../common.h ../cpu_common.h ../cpu.h draw.h main.h    \
                imageio.h ../unifont.h od-input.h settings.h
 
 INCLUDE     := -I. -I.. -I../mips
-DEFS        := -DGCW_ZERO -DPG2 -DMIPS_XBURST   \
-               -DSCREEN_WIDTH=320 -DSCREEN_HEIGHT=240          \
+DEFS        := -DGCW_ZERO -DMIPS_XBURST   \
+               -DSCREEN_WIDTH=640 -DSCREEN_HEIGHT=480          \
                -DGIT_VERSION=$(shell git describe --always)
 HAS_MIPS32R2 := $(shell echo | $(CC) -dM -E - |grep _MIPS_ARCH_MIPS32R2)
 ifneq ($(HAS_MIPS32R2),)
