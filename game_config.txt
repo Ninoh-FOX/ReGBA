@@ -1481,3 +1481,46 @@ game_name = DBZBUUSFURY
 game_code = BG3E
 vender_code = 70
 save_type = eeprom
+
+# Battle Network RockMan EXE (J)
+game_name = ROCKMAN_EXE
+game_code = AREJ
+vender_code = 08
+idle_loop_eliminate_target = 8000338
+
+# F-Zero for Game Boy Advance (J)
+game_name = F-ZERO ADVAN
+game_code = AFZJ
+vender_code = 01
+idle_loop_eliminate_target = 8000c2e
+
+# Pokemon: Fire Red (G)
+game_name = POKEMON FIRE
+game_code = BPRG
+vender_code = 01
+idle_loop_eliminate_target = 80008b2
+flash_rom_type = 128KB
+
+# River City Ransom EX (J)
+game_name = DOWNTOWN
+game_code = BDTJ
+vender_code = EB
+idle_loop_eliminate_target = 800065a
+
+# Rockman Zero (J)
+game_name = ROCKMAN ZERO
+game_code = ARZJ
+vender_code = 08
+idle_loop_eliminate_target = 80004ee
+
+# Super Mario Advance 3 (J)
+game_name = SUPER MARIOC
+game_code = A3AJ
+vender_code = 01
+idle_loop_eliminate_target = 8002ba4
+
+# Tom Clancy's Splinter Cell (U)
+game_name = SPLINTERCELL
+game_code = A04E
+vender_code = 41
+idle_loop_eliminate_target = 807a0c4
